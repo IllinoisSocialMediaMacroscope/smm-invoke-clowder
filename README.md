@@ -1,4 +1,4 @@
-# invokeClowder
+# smm-invoke-clowder
 scripts to interact with Clowder 
 
 ### Endpoint used:
@@ -16,13 +16,13 @@ scripts to interact with Clowder
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/files/' + fileID +'/metadata'
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/datasets/' + dataset_id +'/urls'
 
-4. create dataset (lambda_invoke_clowder.py)
+4. create dataset 
 *TODO: Bad script name, change it later*
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/datasets/createempty'
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/datasets/' + dataset_id +'/metadata'
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/datasets/' + dataset_id +'/tags'
     
-5. list spaces, collections, datasets, people
+5. list spaces, collections, datasets, and people
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/datasets'
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/collections/allCollections'
     * 'https://socialmediamacroscope.ncsa.illinois.edu/clowder/api/spaces/canEdit'
