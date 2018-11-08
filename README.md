@@ -1,9 +1,14 @@
 # smm-invoke-clowder
-This repository hosts scripts to interact with <a href="https://clowder.ncsa.illinois.edu/" target="_blank">NCSA Clowder</a>. 
+![](https://clowder.ncsa.illinois.edu/img/logo.png)
+
+**This repository hosts scripts to interact with <a href="https://clowder.ncsa.illinois.edu/" target="_blank">NCSA Clowder</a>.**  
+
 Clowder is a research data management system designed to support any data format and multiple research domains. 
 When new data is added to the system, whether it is via the web front-end or through its Web service API, 
 a cluster of extraction services process the data to extract interesting metadata and create web based data 
-visualizations.Each script is designed to be deoployed on <a href="https://aws.amazon.com/lambda" target="_blank">AWS Lambda</a>.
+visualizations.
+
+**Each script is designed to be deployed on <a href="https://aws.amazon.com/lambda" target="_blank">AWS Lambda</a>.**
 
 ### Endpoint used:
 1. **create spaces** (clowder_create_space.py)
